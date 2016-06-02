@@ -14,6 +14,12 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'devise'
+gem 'devise_token_auth', '~> 0.1.37'
+gem 'omniauth', '~> 1.3', '>= 1.3.1'
+gem 'hashie', '~> 3.4', '>= 3.4.4'
+gem 'rack', '~> 1.6', '>= 1.6.4'
+
+
 gem 'bootstrap-sass'
 gem 'jquery-turbolinks'
 # Use jquery as the JavaScript library
